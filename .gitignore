@@ -1,0 +1,89 @@
+
+---
+
+## 🚫 **.gitignore - Copy and Paste**
+
+```gitignore
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+pythonenv*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Model files (large)
+*.h5
+*.hdf5
+*.keras
+*.pb
+*.ckpt
+*.weights
+*.bin
+*.safetensors
+
+# Tokenizer files (optional - keep if small)
+# tokenizer/
+
+# Model directories
+model/
+saved_models/
+results/
+output/
+logs/
+
+# Data files (large)
+data/
+*.arrow
+*.jsonl
+
+# Training outputs
+checkpoints/
+*.log
+*.out
+
+# OS specific files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# System files
+*.exe
+*.dll
+*.so
+*.dylib
